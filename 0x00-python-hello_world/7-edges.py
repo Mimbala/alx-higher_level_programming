@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 word = "Holberton"
-# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
-print(f"First 3 letters: {word_first_3}")
-print(f"Last 2 letters: {word_last_2}")
-print(f"Middle word: {middle_word}")
+# first 3 letters
+print(f"First 3 letters: {word[:3]}")
+# Last 2 letters
+print(f"Last 2 letters: {word[-2:]}")
+# Middle word
+print(f"Middle word: {word[1:-1]}")
